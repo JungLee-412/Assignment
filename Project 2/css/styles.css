@@ -1,0 +1,141 @@
+html {
+    background: lightblue;
+    color: darkblue;
+    font: normal 15px 'Comic Sans MS', cursive;
+  }
+
+#header-image {
+	height: 80%;
+	
+	background-image: url("../images/background1.png");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;		
+}
+
+#header {	
+	max-width: 900px;
+	margin: 0 auto;    
+	padding: 200px;	
+}
+
+h1 {
+	font-size: 300%;
+	color: MidnightBlue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+	font-weight: bold;	
+	font-size: 150%;
+	color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+#content {
+	max-width: 900px;
+	margin: 0 auto;
+}	
+
+.adventure {
+	border-bottom: 2px solid grey;
+}
+
+
+img {
+	display: block;
+	margin: 0px auto;
+	width: 350px;
+	height: 300px;
+	border:double 10px white;
+	box-shadow: 0 4px 4px 4px CornflowerBlue;
+}
+
+#more {
+	display: none;
+}
+
+#more2 {
+	display: none;
+}
+
+#more3 {
+	display: none;
+}
+ul {	list-style-type:square;
+  }
+
+button {
+	background-color: CornflowerBlue;
+	border-style: outset;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: CornflowerBlue;
+	border-color: white;
+	border-style: double;
+	border-width: 10px;
+	text-align: center;
+	margin:0 -10px 0 -10px;
+}
+
+a {
+	color: slateblue;
+	text-decoration: none;
+}
+a:hover {
+	color:blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color:purple;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url("../images/search.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: white;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: darkblue;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
